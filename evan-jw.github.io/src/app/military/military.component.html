@@ -1,0 +1,16 @@
+<div class="soldier-wrapper">
+  <div class="pull-left soldier-label">
+      Train spearman:
+  </div>
+  <input type="text" [(ngModel)]="soldier.spearman.total" />
+  <button class="soldier-btn" (click)="trainSpearman()">Train</button>
+  <span class="cost">Cost: {{soldier.spearman.goldcost}} gold, {{soldier.spearman.woodcost}} wood</span>
+</div>
+<div class="soldier-wrapper">
+  <div class="pull-left soldier-label">
+      Train swordsman:
+  </div>
+  <input type="text" [(ngModel)]="soldier.swordsman.total" />
+  <button class="soldier-btn" (click)="trainSwordsman()">Train</button>
+  <span class="cost">Cost: {{soldier.swordsman.goldcost}} gold, {{soldier.swordsman.orecost}} ore</span>
+</div>

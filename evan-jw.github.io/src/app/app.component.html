@@ -1,0 +1,50 @@
+<div class="col-lg-12">
+  <h1>Resources</h1>
+  <div class="resource-section col-lg-2">
+    <div>
+      Gold: {{gold}}
+    </div>
+    <div>
+      Gold mine: {{goldMine}}
+    </div>
+    <button class="mine-btn" (click)="mineGold()">Mine gold</button> 
+  </div>
+
+  <div class="resource-section col-lg-2">
+    <div>
+      Wood: {{wood}}
+    </div>
+    <div>
+      Woodcutter hut: {{woodHut}}
+    </div>
+    <button class="mine-btn" (click)="cutWood()">Cut wood</button> 
+  </div>
+
+  <div class="resource-section col-lg-2">
+    <div>
+      Ore: {{ore}}
+    </div>
+    <div>
+      Ore mine: {{oreMine}}
+    </div>
+    <button class="mine-btn" (click)="mineOre()">MineOre</button> 
+  </div>
+  <div class="resource-section col-lg-2">
+      <div>
+        Spearman: {{soldier.spearman.total}}
+      </div>
+      <div>
+        Swordsman:{{soldier.swordsman.total}}
+      </div>
+  </div>
+  
+</div>
+<div class="second-section">
+    <div id="navigation" class="col-lg-3 section-line">
+      <app-navigation></app-navigation>
+    </div>
+    <div id="action" class="col-lg-9 section-line">
+      <router-outlet></router-outlet>
+    </div>
+</div>
+

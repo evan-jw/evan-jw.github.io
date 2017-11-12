@@ -1,0 +1,32 @@
+.resource-section{
+    margin-bottom: 10px;
+}
+
+.mine-btn{
+    margin: 10px 0;
+    display: inline-block;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    padding: 6px 15px;
+    -webkit-box-shadow: 0 1px 3px #666;
+    -moz-box-shadow: 0 1px 3px #666;
+    box-shadow: 0 1px 3px #666;
+    background-color: #FF963B;
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid transparent;
+}
+
+button.mine-btn:focus{
+    outline: none;
+}
+
+.section-line{
+    border: 1px solid black;
+}
+
+.second-section > div{
+    height: 600px;
+}

@@ -1,0 +1,20 @@
+.options-btn{
+    margin-left: 10px;
+    padding: 3px 10px;
+    display: inline-block;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 3px #666;
+    -moz-box-shadow: 0 1px 3px #666;
+    box-shadow: 0 1px 3px #666;
+    background-color: #337ab7;
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid transparent;
+}
+
+.options-btn:focus{
+    outline:none;
+}
